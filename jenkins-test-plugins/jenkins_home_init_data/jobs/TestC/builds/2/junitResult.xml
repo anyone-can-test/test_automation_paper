@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<result plugin="junit@1.9">
+  <suites>
+    <suite>
+      <file>/var/jenkins_home/jobs/TestC/workspace/target/surefire-reports/TEST-test.GoodTest.xml</file>
+      <name>test.GoodTest</name>
+      <duration>0.002</duration>
+      <cases>
+        <case>
+          <duration>0.001</duration>
+          <className>test.GoodTest</className>
+          <testName>test101</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>test.GoodTest</className>
+          <testName>test102</testName>
+          <skipped>true</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>test.GoodTest</className>
+          <testName>test103</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>test.GoodTest</className>
+          <testName>test104</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>test.GoodTest</className>
+          <testName>test105</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>java.lang.AssertionError: oops
+	at test.GoodTest.test105(GoodTest.java:26)
+</errorStackTrace>
+          <errorDetails>oops</errorDetails>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>test.GoodTest</className>
+          <testName>test106</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+  </suites>
+  <duration>0.002</duration>
+  <keepLongStdio>false</keepLongStdio>
+</result>

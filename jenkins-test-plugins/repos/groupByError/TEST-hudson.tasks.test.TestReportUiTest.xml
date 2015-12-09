@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hudson.tasks.test.TestReportUiTest" time="8.443" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64"/>
+    <property name="java.vm.version" value="24.65-b04"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="KR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/hi25shin/github/anyone-junit-plugin"/>
+    <property name="java.runtime.version" value="1.7.0_65-b32"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/home/hi25shin/apache-maven-3.1.1/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="3.8.0-29-generic"/>
+    <property name="user.home" value="/home/hi25shin"/>
+    <property name="user.timezone" value="Asia/Seoul"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="user.name" value="hi25shin"/>
+    <property name="java.class.path" value="/home/hi25shin/apache-maven-3.1.1/boot/plexus-classworlds-2.5.1.jar"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/usr/lib/jvm/java-7-openjdk-amd64/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="ko"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0_65"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/home/hi25shin/apache-maven-3.1.1"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="testDurationStyle" classname="hudson.tasks.test.TestReportUiTest" time="8.443">
+    <error message="404 Not Found for http://localhost:50345/jenkins/job/render-test/1/testReport/org.twia.vendor/VendorManagerTest" type="com.gargoylesoftware.htmlunit.FailingHttpStatusCodeException">com.gargoylesoftware.htmlunit.FailingHttpStatusCodeException: 404 Not Found for http://localhost:50345/jenkins/job/render-test/1/testReport/org.twia.vendor/VendorManagerTest
+	at com.gargoylesoftware.htmlunit.WebClient.throwFailingHttpStatusCodeExceptionIfNecessary(WebClient.java:549)
+	at com.gargoylesoftware.htmlunit.WebClient.getPage(WebClient.java:333)
+	at com.gargoylesoftware.htmlunit.WebClient.getPage(WebClient.java:389)
+	at com.gargoylesoftware.htmlunit.WebClient.getPage(WebClient.java:374)
+	at org.jvnet.hudson.test.JenkinsRule$WebClient.goTo(JenkinsRule.java:2016)
+	at org.jvnet.hudson.test.JenkinsRule$WebClient.goTo(JenkinsRule.java:1996)
+	at org.jvnet.hudson.test.JenkinsRule$WebClient.getPage(JenkinsRule.java:1948)
+	at hudson.tasks.test.TestReportUiTest.testDurationStyle(TestReportUiTest.java:86)
+</error>
+    <system-out><![CDATA[=== Starting testDurationStyle(hudson.tasks.test.TestReportUiTest)
+]]></system-out>
+    <system-err><![CDATA[Dec 08, 2015 4:35:05 PM org.jvnet.hudson.test.JenkinsRule createWebServer
+INFO: Running on http://localhost:50345/jenkins/
+Dec 08, 2015 4:35:05 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Dec 08, 2015 4:35:05 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Dec 08, 2015 4:35:05 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Dec 08, 2015 4:35:05 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Dec 08, 2015 4:35:05 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Dec 08, 2015 4:35:05 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Dec 08, 2015 4:35:06 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Dec 08, 2015 4:35:06 PM hudson.model.Run execute
+INFO: render-test #1 main build action completed: SUCCESS
+Dec 08, 2015 4:35:13 PM com.gargoylesoftware.htmlunit.WebClient printContentIfNecessary
+INFO: statusCode=[404] contentType=[text/html]
+Dec 08, 2015 4:35:13 PM com.gargoylesoftware.htmlunit.WebClient printContentIfNecessary
+INFO: <html><body>
+<h1>404 Not Found</h1>
+<p>Stapler processed this HTTP request as follows, but couldn't find the resource to consume the request
+<pre>
+-> evaluate(&lt;hudson.model.Hudson@127f62ae> :hudson.model.Hudson,"/job/render-test/1/testReport/org.twia.vendor/VendorManagerTest")
+-> evaluate(((StaplerProxy)&lt;hudson.model.Hudson@127f62ae>).getTarget(),"/job/render-test/1/testReport/org.twia.vendor/VendorManagerTest")
+-> evaluate(&lt;hudson.model.Hudson@127f62ae>.getJob("render-test"),"/1/testReport/org.twia.vendor/VendorManagerTest")
+-> evaluate(&lt;hudson.model.FreeStyleProject@78049c28[render-test]> :hudson.model.FreeStyleProject,"/1/testReport/org.twia.vendor/VendorManagerTest")
+-> evaluate(&lt;hudson.model.FreeStyleProject@78049c28[render-test]>.getDynamic("1",...),"/testReport/org.twia.vendor/VendorManagerTest")
+-> evaluate(&lt;render-test #1> :hudson.model.FreeStyleBuild,"/testReport/org.twia.vendor/VendorManagerTest")
+-> evaluate(&lt;render-test #1>.getDynamic("testReport",...),"/org.twia.vendor/VendorManagerTest")
+-> evaluate(&lt;hudson.tasks.junit.TestResultAction@4eced99b> :hudson.tasks.junit.TestResultAction,"/org.twia.vendor/VendorManagerTest")
+-> evaluate(((StaplerProxy)&lt;hudson.tasks.junit.TestResultAction@4eced99b>).getTarget(),"/org.twia.vendor/VendorManagerTest")
+-> evaluate(&lt;hudson.tasks.junit.TestResult@1736b5f9> :hudson.tasks.junit.TestResult,"/org.twia.vendor/VendorManagerTest")
+-> evaluate(&lt;hudson.tasks.junit.TestResult@1736b5f9>.getDynamic("org.twia.vendor",...),"/VendorManagerTest")
+-> evaluate(&lt;hudson.tasks.junit.PackageResult@8e4fa57> :hudson.tasks.junit.PackageResult,"/VendorManagerTest")
+-> evaluate(&lt;hudson.tasks.junit.PackageResult@8e4fa57>.getDynamic("VendorManagerTest",...),"")
+            hudson.tasks.junit.PackageResult@8e4fa57.getDynamic("VendorManagerTest",...)==null. Back tracking.
+<font color=red>-&gt; No matching rule was found on &lt;hudson.tasks.junit.PackageResult@8e4fa57&gt; for "/VendorManagerTest"</font>
+</pre>
+<p>&lt;hudson.tasks.junit.PackageResult@8e4fa57&gt; has the following URL mappings, in the order of preference:<ol>
+<li>
+hudson.tasks.test.TestObject.doSubmitDescription(...) for url=/submitDescription/...
+<li>
+TOKEN.groovy for url=/TOKEN
+<li>
+VIEW.jelly for url=/VIEW
+<li>
+hudson.tasks.junit.PackageResult.getFailedTestsSortedByAge() for url=/failedTestsSortedByAge/...
+<li>
+hudson.tasks.junit.PackageResult.getSafeName() for url=/safeName/...
+<li>
+hudson.tasks.junit.PackageResult.getPassedTests() for url=/passedTests/...
+<li>
+hudson.tasks.junit.PackageResult.getSkippedTests() for url=/skippedTests/...
+<li>
+hudson.tasks.junit.PackageResult.getPassCount() for url=/passCount/...
+<li>
+hudson.tasks.junit.PackageResult.getTitle() for url=/title/...
+<li>
+hudson.tasks.junit.PackageResult.getChildTitle() for url=/childTitle/...
+<li>
+hudson.tasks.junit.PackageResult.getRun() for url=/run/...
+<li>
+hudson.tasks.junit.PackageResult.getName() for url=/name/...
+<li>
+hudson.tasks.junit.PackageResult.getParent() for url=/parent/...
+<li>
+hudson.tasks.junit.PackageResult.getParent() for url=/parent/...
+<li>
+hudson.tasks.junit.PackageResult.getParent() for url=/parent/...
+<li>
+hudson.tasks.junit.PackageResult.getDisplayName() for url=/displayName/...
+<li>
+hudson.tasks.junit.PackageResult.getChildren() for url=/children/...
+<li>
+hudson.tasks.junit.PackageResult.getDuration() for url=/duration/...
+<li>
+hudson.tasks.junit.PackageResult.getFailedTests() for url=/failedTests/...
+<li>
+hudson.tasks.junit.PackageResult.getFailedTests() for url=/failedTests/...
+<li>
+hudson.tasks.junit.PackageResult.getFailCount() for url=/failCount/...
+<li>
+hudson.tasks.junit.PackageResult.getSkipCount() for url=/skipCount/...
+<li>
+hudson.tasks.test.TestResult.getParentAction() for url=/parentAction/...
+<li>
+hudson.tasks.test.TestResult.getBuildResult() for url=/buildResult/...
+<li>
+hudson.tasks.test.TestResult.getFailedSince() for url=/failedSince/...
+<li>
+hudson.tasks.test.TestResult.getFailedSinceRun() for url=/failedSinceRun/...
+<li>
+hudson.tasks.test.TestResult.getErrorStackTrace() for url=/errorStackTrace/...
+<li>
+hudson.tasks.test.TestResult.getErrorDetails() for url=/errorDetails/...
+<li>
+hudson.tasks.test.TestResult.getStdout() for url=/stdout/...
+<li>
+hudson.tasks.test.TestResult.getStderr() for url=/stderr/...
+<li>
+hudson.tasks.test.TestResult.getPreviousResult() for url=/previousResult/...
+<li>
+hudson.tasks.test.TestResult.getPreviousResult() for url=/previousResult/...
+<li>
+hudson.tasks.test.TestObject.getTopLevelTestResult() for url=/topLevelTestResult/...
+<li>
+hudson.tasks.test.TestObject.getTestActions() for url=/testActions/...
+<li>
+hudson.tasks.test.TestObject.getTestResult() for url=/testResult/...
+<li>
+hudson.tasks.test.TestObject.getGroupByError() for url=/groupByError/...
+<li>
+hudson.tasks.test.TestObject.getId() for url=/id/...
+<li>
+hudson.tasks.test.TestObject.getDescription() for url=/description/...
+<li>
+hudson.tasks.test.TestObject.getApi() for url=/api/...
+<li>
+hudson.tasks.test.TestObject.getFullName() for url=/fullName/...
+<li>
+hudson.tasks.test.TestObject.getFullDisplayName() for url=/fullDisplayName/...
+<li>
+hudson.tasks.test.TestObject.getSearchUrl() for url=/searchUrl/...
+<li>
+hudson.tasks.test.TestObject.getUrl() for url=/url/...
+<li>
+hudson.tasks.test.TestObject.getDurationString() for url=/durationString/...
+<li>
+hudson.tasks.test.TestObject.getTestResultAction() for url=/testResultAction/...
+<li>
+hudson.tasks.test.TestObject.getHistory() for url=/history/...
+<li>
+hudson.tasks.test.TestObject.getTotalCount() for url=/totalCount/...
+<li>
+hudson.tasks.junit.TestObject.getOwner() for url=/owner/...
+<li>
+hudson.model.AbstractModelObject.getSearchIndex() for url=/searchIndex/...
+<li>
+hudson.model.AbstractModelObject.getSearch() for url=/search/...
+<li>
+hudson.model.AbstractModelObject.getSearchName() for url=/searchName/...
+<li>
+java.lang.Object.getClass() for url=/class/...
+<li>
+hudson.tasks.junit.PackageResult.getClassResult(String) for url=/classResult/TOKEN/...
+<li>
+hudson.tasks.junit.PackageResult.getDynamic(String,StaplerRequest,StaplerResponse) for url=/TOKEN/...
+</ol>
+</body></html>
+
+]]></system-err>
+  </testcase>
+</testsuite>
